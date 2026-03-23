@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: darkslateblue;
+    font-size: 16px;
+}
+.mainbody{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.screen{
+    background-color: #1A3263;
+    width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 7px 5px 2px black;
+}
+.mainscreen{
+    background-color: #547792;
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    width: 500px;
+    height: 120px;
+    
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    
+}
+.btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 50px;
+}
+button{
+    font-size: 1rem;
+    font-family: 'Ubuntu';
+    color: black;
+    border: none;
+    border-radius: 25px;
+    background-color: #EFD2B0;
+    width: 70px;
+    height: 25px;
+    transition: all 0.15s ease;
+}
+button:hover{
+    color: white;
+    background-color: orange;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 1px black;
+}
+button:active{
+    transform: scale(1);
+    color: black;
+    background-color: #EFD2B0;
+    box-shadow: 0px 0px 1px black;
+}
+.workarea{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Ubuntu";
+    position: relative;
+    top: 12%;
+    width: 500px;
+    height: 60px;
+}
+.preview{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Ubuntu";
+    padding-right: 40px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    width: 500px;
+    height: 60px;
+}
